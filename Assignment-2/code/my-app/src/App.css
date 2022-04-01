@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container{
+  width: 230px;
+  background-color: rgb(218, 216, 216);
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.name{
+  padding-left: 15px;
+  height: 30px;
+  color: rgb(16, 207, 207);
+  margin: 0px;
+}
+
+.info{
+  padding-left: 15px;
+  color: dimgray;
+  font-weight: bold;
+}
+
+.data{
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: large;
+  line-height: 2px;
+}
