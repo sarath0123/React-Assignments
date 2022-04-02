@@ -1,0 +1,128 @@
+body{
+    background-color: lightslategray;
+}
+.site-container{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.head{
+    width: 100%;
+    height: 13vh;
+    background-color: #fff;
+    border: 1px solid lightcyan;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-bottom: 4vh;
+}
+
+.arr{
+    font-size: 200%;
+    margin-left: 3%;
+    margin-top: 4vh;
+}
+
+.grey{
+    color: rgb(70, 68, 68);
+}
+
+button{
+    margin-right: 3%;
+    width: 6%;
+    height: 7vh;
+    margin-top: 3vh;
+    color: white;
+    background-color: black;
+    font-size: 120%;
+}
+
+/* second row */
+.customer-info{
+    background-color: white;
+    border: 1px solid lightcyan;
+    width: 96%;
+    height: 20vh;
+    margin: 0 2% 0 2%;
+    vertical-align: middle;
+    text-indent: 2%;
+    margin-bottom: 4vh;
+}
+
+/* third row */
+.order-info{
+    background-color: gray;
+    border: 1px solid lightcyan;
+    width: 92%;
+    height: 15vh;
+    margin: 0 2% 0 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+    padding: 3vh 2% 3vh 2%;
+}
+
+.order{
+    width: 33.33%;
+    top:50%;
+    bottom: 50%;
+    line-height: 200%;
+}
+
+ul{
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+li::marker{
+    font-size: 200%;
+    text-indent: -10px;
+}
+
+li{
+    text-indent: -10px;
+}
+
+/* fourth row */
+.product-list{
+    background-color: white;
+    border: 1px solid lightcyan;
+    width: 96%;
+    height: 30vh;
+    margin: 0 2% 0 2%;
+    display: flex;
+    text-indent: 2%;
+}
+
+.pic{
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.squarebox{
+    width: 12%;
+    height: 5vh;
+    border: 1px solid orangered;
+    margin-top: 12vh;
+    margin-left: 10px;
+}
+
+img{
+    width: 60%;
+    height: 24vh;
+    margin-top: 3vh;
+}
+
+.txt{
+    width: 70%;
+}
+
+.ar2{
+    font-size: 200%;
+    margin: auto;
+}
