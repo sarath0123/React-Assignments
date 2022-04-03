@@ -1,0 +1,32 @@
+.order-info{
+    background-color: gray;
+    border: 1px solid lightcyan;
+    width: 92%;
+    height: 15vh;
+    margin: 0 2% 0 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+    padding: 3vh 2% 3vh 2%;
+}
+
+.order{
+    width: 33.33%;
+    top:50%;
+    bottom: 50%;
+    line-height: 200%;
+}
+
+ul{
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+li::marker{
+    font-size: 200%;
+    text-indent: -10px;
+}
+
+li{
+    text-indent: -10px;
+}
