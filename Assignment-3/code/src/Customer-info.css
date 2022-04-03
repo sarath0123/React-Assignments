@@ -1,0 +1,10 @@
+.customer-info{
+    background-color: white;
+    border: 1px solid lightcyan;
+    width: 96%;
+    height: 20vh;
+    margin: 0 2% 0 2%;
+    vertical-align: middle;
+    text-indent: 2%;
+    margin-bottom: 4vh;
+}

@@ -1,0 +1,40 @@
+.product-list{
+    background-color: white;
+    border: 1px solid lightcyan;
+    width: 96%;
+    height: 30vh;
+    margin: 0 2% 0 2%;
+    display: flex;
+    text-indent: 2%;
+}
+
+.pic{
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.squarebox{
+    width: 12%;
+    height: 5vh;
+    border: 1px solid orangered;
+    margin-top: 12vh;
+    margin-left: 10px;
+}
+
+img{
+    width: 60%;
+    height: 24vh;
+    margin-top: 3vh;
+}
+
+.txt{
+    width: 70%;
+}
+
+.ar2{
+    font-size: 200%;
+    margin: auto;
+}
