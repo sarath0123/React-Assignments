@@ -7,7 +7,6 @@ const Postview=()=> {
   return (
     <div className="site-container">
       <Outer/>
-
     </div>
   );
 }
