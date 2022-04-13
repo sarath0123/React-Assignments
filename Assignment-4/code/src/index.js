@@ -1,25 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Postview from './Postview';
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './LandingPage/App';
+import reportWebVitals from './reportWebVitals';
 
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
 ReactDOM.render(
 
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<App />}/>
-            <Route path="postview" element={<Postview/>} />
-          </Routes>
-        </BrowserRouter>
+        // <BrowserRouter>
+        //   <Routes>
+        //     <Route path="/" element={<App />}/>
+        //     <Route path="postview" element={<Postview/>} />
+        //   </Routes>
+        // </BrowserRouter>
 
-
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
     ,
   // <React.StrictMode>
   //   <Postview/>
