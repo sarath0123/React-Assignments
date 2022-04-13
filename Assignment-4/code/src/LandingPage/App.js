@@ -1,25 +1,19 @@
-import React from 'react'
-import './App.css';
-import { Outlet,Link } from "react-router-dom";
+import React from 'react';
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing_page from './Landing_page';
+import Postview from './../Postview';
 
 
 export default function App() {
   return (
-    <div className="wrapper">
-
-      <div className="innerbox">
-        <img className='photo' src="./Images/photo.jpeg"/>
-      </div>
-      <div className="innerbox">
-        <h1 className="heading">10X Team 04</h1>
-        <button>
-            <Link to="/postview">Enter</Link>
-        </button>
-      </div>
-
-
-    <Outlet />
-    </div>
+    <>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Landing_page/>}/>
+                <Route path="postview" element={<Postview/>} />
+            </Routes>
+        </BrowserRouter>
+    </>
   )
 }
